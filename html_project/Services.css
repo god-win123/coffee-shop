@@ -1,0 +1,615 @@
+    
+    .heading{
+
+        margin-left: 70px;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color:#252525;
+        }
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-height: 8vh;
+        background-color:#252525;
+        font-family: "Montserrat",sans-serif;
+    }
+    li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: whitesmoke;
+        text-align: right;
+        padding: 16px;
+        text-decoration: none;
+    }
+    .second{
+        color: orangered;
+    }
+
+    li a:hover {
+        color: orangered;
+    }
+
+    div.background-image {
+        color: white;           
+        background-size: cover;
+        height: 40em;
+        background-repeat: no-repeat;
+    }
+
+    .coffe_text1{
+        color: black;
+        align-items: 8vh;
+        font-family: "Montserrat",sans-serif;
+        font-size: 50px;
+        padding-top: 2%;
+        padding-left: 5%;
+        
+    }
+
+    .coffe_text2 {
+        float: left;
+        color: whitesmoke;
+        justify-content: space-between;
+        align-items: 8vh;
+        font-size: 60px;
+        font-family: "Montserrat",sans-serif;
+        padding-top: 1%;
+        padding-left: 5%;
+        }
+    .para-line{
+        width: 60%;
+        font-size: 14px;
+        margin: 0;
+        margin-top: 55px;
+        margin-left: 70px;
+    }
+    .on{
+        background-color: #252525;
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-top: 55px;
+        margin-left: 70px;
+    }
+
+    .on:hover{
+        background-color: orangered;
+    }
+
+    .photo{
+        float:inline-end; 
+        width: 500px;
+        margin-right:40px ;
+        
+    }
+
+    .about{
+        color: orangered;
+        margin-left: 50px;
+    }
+    .para{
+        margin-left: 50px;
+    }
+
+
+    .para{
+        font-size:18px;
+    }
+
+
+    .link{
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: 50px;
+        padding-bottom: -30%;
+    }
+
+    .link:hover{
+        background-color: orangered;
+    }
+
+    .Gallery{
+        text-align: center;
+        color: orangered;
+
+    }
+    .gallery_para{
+        text-align: center;
+        font-size:17px;
+        color: rgba(0, 0, 0, 0.774)
+    }
+
+    .Gallery_Image{
+        left:0;
+        right: 0;
+    }
+
+    .photo1{
+        display: flex;
+        gap: 25px;
+        margin: 0px 10px 30px 200px;
+    }
+
+    .Gallery2{
+        left:0;
+        right: 0;  
+    }
+    .photo2{
+        display: flex;
+        gap: 25px;
+        margin:  0px 10px 30px 200px;
+    }
+
+    .Gallery2{
+        left:0;
+        right: 0;
+    }
+
+    .photo3{
+        display: flex;
+        gap: 25px;
+        margin:  0px 10px 30px 200px;
+    }
+    
+    .website{
+        margin: 0px 10px 30px 600px;;
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .website:hover{
+        background-color: orangered;
+    }
+
+    div.image{
+        background-attachment:fixed;
+        margin: 0px 10px 0px 0px;
+        padding: 35px;
+        color: white;           
+        background-size: contain;
+        height: 30em;
+        width: 1270px;
+        background-repeat:repeat;
+    }
+    .paragraph {
+        text-align: center;
+        color: white;
+        font-family: "Montserrat",sans-serif;
+    }
+
+    .line{
+        text-align: center;
+    }
+
+    .orginal_coffee1{
+        float: left;
+        background-color: orangered;
+        padding: 10px;
+        height: 270px;
+        width: 300px;
+        margin: 40px;
+    }.orginal_coffee2{
+        float: left;
+        background-color: orangered;
+        padding: 10px;
+        height: 270px;
+        width: 300px;
+        margin: 40px;
+    }.orginal_coffee3{
+        float: left;
+        background-color: orangered;
+        padding: 10px;
+        height: 270px;
+        width: 300px;
+        margin: 40px;
+    }
+
+    /* .orginal_coffee1.button{
+        margin: 0px 10px 30px 600px;;
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    */
+
+
+    .orginal_coffee1:hover{
+        background-color: white;
+        color : black;
+        height: 310px;
+        /* margin: 0px 10px 30px 600px;;
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block; */
+        
+    }
+    .orginal_coffee1:hover .Read_more {
+        display: block;
+    }
+    .orginal_coffee1:hover .org{
+        color: black;
+    } 
+    .orginal_coffee1:hover .org_para{
+        color: black;
+    }
+    .orginal_coffee1:hover .Read_more a {
+        color: #ffffff;
+        background-color: #000;
+    }
+
+    .Read_more {
+        width: 150px;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .Read_more a {
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: -10px;
+        padding-bottom: 10%;
+    }
+
+    .orginal_coffee2:hover .Read_more1 {
+        display: block;
+    }
+    .orginal_coffee2:hover{
+        background-color: white;
+        color : black;
+        height: 310px;
+    }
+
+    .orginal_coffee2:hover .org2{
+        color: black;
+    }
+
+    .orginal_coffee2:hover .org_para2{
+        color: black;
+    }
+
+    .orginal_coffee2:hover .Read_more1 a {
+        color: #ffffff;
+        background-color: #000;
+    }
+
+    .Read_more1 {
+        width: 150px;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .Read_more1 a {
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: -10px;
+        padding-bottom: 10%;
+    }
+
+    .orginal_coffee3:hover .Read_more2 {
+        display: block;
+    }
+    .orginal_coffee3:hover{
+        background-color: white;
+        color : black;
+        height: 310px;
+    }
+    .orginal_coffee3:hover .org3{
+        color: black;
+    }
+
+    .orginal_coffee3:hover .org_para3{
+        color: black;
+    }
+
+    .orginal_coffee3:hover .Read_more2 a {
+        color: #ffffff;
+        background-color: #000;
+    }
+
+    .Read_more2 {
+        width: 150px;
+        padding-top: 30px;
+        margin: 0 auto;
+        display: flex;
+        display: none;
+        padding-bottom: 30px;
+    }
+
+    .Read_more2 a {
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        padding: 18px 35px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        margin-left: -10px;
+        padding-bottom: 10%;
+    }
+
+    .icon1 {
+        margin: 0px 0px 0px 90px;
+        padding: 40px;
+        height: 50px;
+        width: 45px;
+    }
+
+    .icon2 {
+        margin: 0px 0px 0px 90px;
+        padding: 30px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .icon3 {
+        margin: 0px 30px 0px 90px;
+        padding: 30px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .org{
+        margin: 0px 30px 0px 55px;
+        padding: 0px;
+    }
+
+    .org_para{
+        margin: 5px 30px 0px 18px;
+        padding: 10px;
+        color: wheat;
+    }
+
+    .org2{
+        margin: 5px 30px 0px 55px;
+        padding: 0px;
+    }
+    .org_para2{
+        margin: 10px 30px 0px 18px;
+        padding: 10px;
+        color: wheat;
+    }
+
+    .org3{
+        margin: 0px 30px 0px 55px;
+        padding: 0px;
+    }
+    .org_para3{
+        margin: 10px 30px 0px 18px;
+        padding: 10px;
+        color: wheat;
+    }
+
+        
+    .test{
+        color: orangered;
+        margin:10px 30px 0px 30px;
+    }
+
+    .test_para{
+        margin:20px 30px 0px 30px;
+    }
+
+    .name{
+        color: #252525;
+        padding: 0px;
+        margin-top: 7px;
+        margin-left: -790px;
+    }
+
+    .new_para{
+        text-align: left;
+        font-size: 17px;
+        width: 100%;
+        float: left;
+        color: #252525;
+        margin: 0;
+    }
+
+    .line {
+        width: 90%;
+        float: left;
+        margin-top: -10px;
+        margin-left: 30px;
+        padding: 0px 10px 10px 30px;
+        position: absolute;
+
+    }
+
+
+
+    div.line::after {
+        content:"";
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        border-top: 3px solid #252525;
+        border-left: 3px solid #252525;
+        top: 12px;
+        left: 0px;
+        right: initial;
+        
+    }
+    div.line::before {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 150px;
+        border-bottom: 3px solid #252525;
+        border-right: 3px solid #252525;
+        top: 12px;
+        left: initial;
+        right: 0px;
+    }
+
+    .call{
+        text-align: center;
+    }
+
+    .box{
+        float: left;
+        height: 25px;
+        width: 50px;
+        background-color:#252525;
+        margin-right: -239px;
+        margin-left: 250px;
+        border-radius: 25px;
+        padding-left: 20px;
+    }
+
+    .box1{
+        float: left;
+        height: 25px;
+        width: 50px;
+        background-color: orangered;
+        margin-right: -239px;
+        margin-left: 40%;
+        border-radius: 25px;
+        padding-left: 20px;
+    }
+    .image20{
+        height: 40em;
+    }
+
+    .image2{
+        width: 50px;
+    }
+
+    .empty_shell{
+        background-color: #252525;
+        float: right;
+        margin-top: -382px;
+        padding-right: 350px;
+        margin-left: 5em;
+        max-height: 378px;
+    }
+
+    .background-color{
+        height: 400px;
+    }
+
+    .text{
+        float: left;
+    }
+    .lat-para1{
+        float: left;
+        color: whitesmoke;
+        padding: 10px;
+        height: 270px;
+        width: 300px;
+        margin: 40px;
+    }.lat-para2{
+        float: left;
+        color: whitesmoke;
+        padding: 10px;
+        height: 270px;
+        width: 300px;
+        margin: 40px;
+
+    .ashley-look-at-me{
+        padding-right: 10px;
+        padding-left: -30px;
+        margin-right: 210px;
+        margin-top: -10px;
+    }
+    .last-para2{
+        color: aliceblue;
+    }
+    .last-para2:hover{
+        color: orangered;
+
+    }
+    }.lat-para3{
+        float: left;
+        font-size: 14px;
+        color: whitesmoke;
+        padding: 15px;
+        height: 270px;
+        width: 300px;
+        margin-left: -100px;
+        margin-top: 42px;
+    }
+
+    .lat-para4{
+        float: left;
+        color: whitesmoke;
+        padding: -18px;
+        height: 270px;
+        width: 300px;
+        margin-left: 200px;
+        margin-top: -290px;
+        background-color: #252525;
+    }
+    .super{
+        background-color: #252525;;
+        padding-right: 10px;
+        margin-right: 95px;
+        margin-top: -50px;
+    }
+
+    .super1{
+        background-color: #252525;;
+        padding-right: 10px;
+        margin-right: 110px;
+        margin-top: -15px;
+    }
+
+    .super2{
+        background-color: #252525;;
+        padding-right: 10px;
+        margin-right: 80px;
+        margin-top: -20px;
+    }
+    .super:hover{
+        color: orangered;
+        
+
+    }
+
+
+    .super1:hover{
+        color: orangered;
+
+    }
+
+    .super2:hover{
+        color: orangered;
+
+    }
+
